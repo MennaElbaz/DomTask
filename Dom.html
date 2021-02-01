@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 Task1</title>
+    <link rel="Stylesheet" href="Dom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- Header Section Beginning-->
+    <section id="headerSection">
+        <div class="headerDiv">
+            <h1>Customized Todo List</h1>
+            <div class="headerIntro">
+                Welcome to your Customized TODO list.<br>
+                you are invited to plan your weekly schedule by adding tasks to the planner then pressing the add button.<br>
+            </div>
+        </div>
+    </section>
+
+    <!--Into Header Section Ending-->
+
+    <!--Input Section Beginning-->
+    <section id="inputSection">
+        <div class="inputMainParent">
+            <label class="inputLabel">Type your Task then press Add</label>
+            <div class="inputDirectParent">
+                <div id="icon">
+                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                </div>
+                <input type="text" class="input">
+                <button class="inputBtn btn"><b>+</b></button>
+                <button class="inputBtn2 btn"><b>-</b></button>
+            </div>
+        </div>
+    </section>
+    <!--Input Section Ending-->
+
+    <!--Warning Msg Section Beginning-->
+    <section id="generic">
+        <section id="warningSection">
+            <div class="warningParent">
+                <div class="warningMsg">
+                    UH OH! <br>
+                </div>
+            </div>
+        </section>
+        <!--Warning Msg Section Endning-->
+    
+        <!--Output Section Beginning-->
+        <section id="flexRow">
+            <section id="outputSection">
+                <h3 id="outputHeader">Ongoing Tasks</h3>
+                <ul class="output">
+
+                </ul>
+            </section>
+            <!--Output Section Endning-->
+
+            <!--Fulfilled Section Beginning-->
+            <section id="fulfilledSection">
+                <h3 id="fulfilledHeader">Finished Tasks</h3>
+                <ul class="fulfilled">
+
+                </ul>
+            </section>
+        </section>
+    </section>
+    <!--Fulfilled Section Beginning-->
+
+
+    <!--Js-->
+    <script src="Dom.js"></script>
+</body>
+</html>
